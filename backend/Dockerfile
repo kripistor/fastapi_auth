@@ -26,4 +26,4 @@ COPY --from=base /app /app
 COPY --from=base /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
 COPY --from=base /usr/local/bin /usr/local/bin
 
-CMD uvicorn --host 0.0.0.0 --port 8000 main:app
+CMD uvicorn --host 0.0.0.0 --port 8001 main:app
